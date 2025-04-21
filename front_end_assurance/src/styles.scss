@@ -1,0 +1,236 @@
+/* You can add global styles to this file, and also import other style files */
+//@import url(node_modules/primeflex/primeflex.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(~node_modules/font-awesome/css/font-awesome.css);
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import 'primeflex/primeflex.scss';
+@import "primeicons/primeicons.css";
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+@charset "UTF-8";
+:root {
+	--primaryBleu: #23235b;
+	--primaryOrange: #062d5a;
+	--blue-50: #f3f8fc;
+	--blue-100: #c6dcef;
+	--blue-200: #98c1e3;
+	--blue-300: #6ba5d7;
+	--blue-400: #3d8aca;
+	--blue-500: #106ebe;
+	--blue-600: #0e5ea2;
+	--blue-700: #0b4d85;
+	--blue-800: #093d69;
+	--blue-900: #062c4c;
+	--green-50: #f7fbf3;
+	--green-100: #d9eac4;
+	--green-200: #bbda96;
+	--green-300: #9cca67;
+	--green-400: #7eb939;
+	--green-500: #60a90a;
+	--green-600: #529009;
+	--green-700: #437607;
+	--green-800: #355d06;
+	--green-900: #264404;
+	--yellow-50: #fffcf2;
+	--yellow-100: #ffeec2;
+	--yellow-200: #ffe191;
+	--yellow-300: #ffd461;
+	--yellow-400: #ffc630;
+	--yellow-500: #ffb900;
+	--yellow-600: #d99d00;
+	--yellow-700: #b38200;
+	--yellow-800: #8c6600;
+	--yellow-900: #664a00;
+	--cyan-50: #f2fbfc;
+	--cyan-100: #c2eef1;
+	--cyan-200: #91e0e5;
+	--cyan-300: #61d2da;
+	--cyan-400: #30c5ce;
+	--cyan-500: #00b7c3;
+	--cyan-600: #009ca6;
+	--cyan-700: #008089;
+	--cyan-800: #00656b;
+	--cyan-900: #00494e;
+	--pink-50: #fef2f9;
+	--pink-100: #f8c2e3;
+	--pink-200: #f391ce;
+	--pink-300: #ee61b8;
+	--pink-400: #e830a2;
+	--pink-500: #e3008c;
+	--pink-600: #c10077;
+	--pink-700: #9f0062;
+	--pink-800: #7d004d;
+	--pink-900: #5b0038;
+	--indigo-50: #f5f6fc;
+	--indigo-100: #cdd3f1;
+	--indigo-200: #a5b0e6;
+	--indigo-300: #7d8edc;
+	--indigo-400: #566bd1;
+	--indigo-500: #2e48c6;
+	--indigo-600: #273da8;
+	--indigo-700: #20328b;
+	--indigo-800: #19286d;
+	--indigo-900: #121d4f;
+	--teal-50: #f2f9f8;
+	--teal-100: #c2e1dd;
+	--teal-200: #91c9c2;
+	--teal-300: #61b2a8;
+	--teal-400: #309a8d;
+	--teal-500: #008272;
+	--teal-600: #006f61;
+	--teal-700: #005b50;
+	--teal-800: #00483f;
+	--teal-900: #00342e;
+	--orange-50: #fdf7f2;
+	--orange-100: #f5d8c2;
+	--orange-200: #edb991;
+	--orange-300: #e49a61;
+	--orange-400: #dc7b30;
+	--orange-500: #d45c00;
+	--orange-600: #b44e00;
+	--orange-700: #944000;
+	--orange-800: #753300;
+	--orange-900: #552500;
+	--bluegray-50: #f8f9fb;
+	--bluegray-100: #dee4ed;
+	--bluegray-200: #c4cfe0;
+	--bluegray-300: #a9bad2;
+	--bluegray-400: #8fa4c4;
+	--bluegray-500: #758fb6;
+	--bluegray-600: #637a9b;
+	--bluegray-700: #52647f;
+	--bluegray-800: #404f64;
+	--bluegray-900: #2f3949;
+	--purple-50: #f9f8fd;
+	--purple-100: #e1dff7;
+	--purple-200: #cac5f1;
+	--purple-300: #b2abeb;
+	--purple-400: #9b92e4;
+	--purple-500: #8378de;
+	--purple-600: #6f66bd;
+	--purple-700: #5c549b;
+	--purple-800: #48427a;
+	--purple-900: #343059;
+}
+
+@font-face {
+	font-family: 'poppins-light';
+	src: url('assets/fonts/poppins/Poppins-Light.ttf');
+}
+@import url(node_modules/bootstrap/dist/css/bootstrap.css);
+@import url(node_modules/primeflex/primeflex.css);
+
+@font-face {
+	font-family: 'poppins-bold';
+	src: url('assets/fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'poppins-black';
+	src: url('assets/fonts/poppins/Poppins-Black.ttf');
+}
+
+@font-face {
+	font-family: 'poppins-medium';
+	src: url('assets/fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'poppins-semi-bold';
+	src: url('assets/fonts/poppins/Poppins-SemiBold.ttf');
+}
+body {
+	overflow-x: hidden;
+	background-color: #F0F4FA;
+	font-family: Poppins;
+	margin: 0;
+}
+* {
+	font-family: poppins-medium;
+}
+
+p {
+	font-family: poppins-light
+}
+
+.mr-3 {
+	margin-right: 3rem;
+}
+
+.mr-2 {
+	margin-right: 2rem;
+}
+
+.mr-5 {
+	margin-right: 5rem;
+}
+
+.mr-1 {
+	margin-right: 0.5rem;
+}
+
+.font-weight-bold{
+	font-weight: 600 !important;
+}
+
+.nav-link .active {
+	color: var(--primaryOrange) !important;
+	font-weight: 650;
+	text-decoration: underline !important;
+}
+
+.loginActive {
+	color: var(--primaryOrange);
+	font-weight: 650;
+}
+
+loginActive:hover {
+	color: var(--primaryBleu) !important;
+}
+
+.bgPrimaryOrange {
+	background: var(--primaryOrange);
+}
+
+.primaryOrangeColor {
+	color: var(--primaryOrange);
+}
+
+label, span {
+	&.label-required:after {
+		content: "*";
+		color: red;
+		margin: 0 3px 0 3px;
+		position: relative;
+	}
+}
+
+.primaryBleuColor {
+	color: var(--primaryBleu);
+}
+
+.bgPrimaryBleuColor {
+	background: var(--primaryBleu);
+}
+
+.btn-sm {
+	width: 55%;
+	padding: 10px;
+	font-size: 16px;
+}
+
+
+.p-dropdown {
+	height: 35px;
+}
+
+.p-dropdown .p-dropdown-label {
+	align-self: center;
+}
+

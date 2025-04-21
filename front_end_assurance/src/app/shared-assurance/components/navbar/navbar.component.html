@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-0 bg-white sticky-top">
+	<div class="container-fluid">
+		<div class="navbar-brand group-logo">
+			<img  width="50" (click)="goToAccueil()">
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+				(click)="isCollapsed = !isCollapsed">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="isCollapsed">
+			<div class="me-auto"></div>
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a href="/" class="nav-link custom-nav-link" routerLinkActive="active">
+						Accueil
+					</a>
+				</li>
+				<li class="nav-item">
+					<a routerLink="/souscription" fragment="souscription" class="nav-link custom-nav-link">
+						Souscription
+					</a>
+				</li>
+				<li class="nav-item">
+					<a routerLink="/simulation" fragment="simulation" class="nav-link custom-nav-link">
+                      Simulation
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

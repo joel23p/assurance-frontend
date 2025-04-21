@@ -1,0 +1,109 @@
+:host::ng-deep {
+	.navbar {
+		min-height: 70px;
+	}
+
+	li.nav-item {
+		font-size:15px;
+	}
+
+	li.nav-item .nav-link {
+		font-weight: 500;
+		color:black;
+		font-family: poppins-light !important;
+	}
+
+	.right-links p {
+		margin-top: -13px;
+		margin-left: 43px;
+	}
+
+	.p-dropdown {
+		width:120px;
+		height:40px;
+	}
+
+	.btn-creer-compte {
+		border-color: var(--primaryOrange);
+		width: fit-content;
+	}
+
+	.p-dropdown .p-dropdown-label, .p-dropdown-panel .p-dropdown-items .p-dropdown-item{
+		font-size: 12px !important;
+		align-self: center;
+	}
+
+	.p-dropdown-item {
+		font-size: 12px !important;
+	}
+
+	.p-dropdown-items-wrapper {
+		overflow: hidden !important;
+	}
+
+	.active {
+		text-decoration: underline !important;
+		color: var(--primaryOrange) !important;
+		font-weight: 600 !important;
+	}
+
+	.btn-outline-orange {
+		color: var(--primaryOrange);
+		border: 1px solid var(--primaryOrange);
+		height: 30px;
+		padding: 2px;
+		font-size:15px;
+		border-radius: 3px !important;
+	}
+
+	.btn-profil {
+		color: white;
+		::ng-deep .p-splitbutton {
+
+			.p-splitbutton-defaultbutton, .p-splitbutton-menubutton {
+				background: white;
+				color: var(--primaryOrange);
+				border-radius: 3px !important;
+				border: unset;
+
+				&:focus {
+					border: unset;
+					box-shadow: unset;
+				}
+			}
+		}
+	}
+}
+.hover-bg:hover{
+	background: red !important;
+	color: #FFFFFF;
+}
+.hover-bg{
+	animation-duration: 2.5s;
+	animation-name: clignoter;
+	animation-iteration-count: infinite;
+	transition: none;
+}
+@keyframes clignoter {
+	0%   { opacity:1; }
+	40%   {opacity:0; }
+	100% { opacity:1; }
+}
+.custom-nav-link {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #333;
+	transition: color 0.3s, border-bottom 0.3s;
+	text-decoration: none;
+}
+.custom-nav-link:hover {
+	color: #007BFF;
+	border-bottom: 2px solid #007BFF;
+}
+
+.custom-nav-link.active {
+	color: #007BFF;
+	font-weight: 600;
+	border-bottom: 2px solid #007BFF;
+}

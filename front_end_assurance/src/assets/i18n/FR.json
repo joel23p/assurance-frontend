@@ -1,0 +1,212 @@
+{
+	"ACCUEIL": {
+		"FAIRE_DEMANDE_VISA": "Faire une demande de visa",
+		"CHOIX_LIEU_DELIVRANCE": "Choisir le lieu de délivrance",
+		"PRISE_RDV": "Prise de rendez-vous",
+		"PAIEMENT_EN_LIGNE": "Faire le paiement en ligne",
+		"SUIVRE_ETAT_DEMANDE": "Suivre l'etat de la demande",
+		"MENU": {
+			"ACCUEIL": "Accueil",
+			"PROCESSUS": "Processus",
+			"SERVICES": "Services",
+			"A_PROPOS": "A propos",
+			"NOUS_CONTACTER": "Nous contacter",
+			"BTN_SE_CONNECTER": "Se connecter",
+			"BTN_CREER_UN_COMPTE": "Créer un compte",
+			"BTN_MON_ESPACE": "Mon espace",
+			"BTN_SE_DECONNECTER": "Se deconnecter"
+		},
+		"PIED_PAGE": {
+			"LOCALISATION": "Localisation",
+			"NOUS_CONTACTER": "Nous contacter",
+			"NOUS_SUIVRE": "Nous suivre"
+		},
+		"BANNIERE": {
+			"DEMANDEZ_PAYEZ_RENOUVELEZ": "Demandez, payez et renouvelez votre",
+			"VOTRE_VISA_COTE_D_IVOIRE": "VISA en Côte d'Ivoire",
+			"QUELQUES_CLICS": "en quelques clics.",
+			"NOUS_SIMPLIFIONS_VOTRE_VOYAGE": "Nous simplifions votre voyage en Côte d'Ivoire",
+			"BTN_FAIRE_DEMANDE": "Faire une demande"
+		},
+		"PROCESSUS": {
+			"TITRE": "Processus",
+			"COMMENT_OBTENIR_SON_VISA": "Comment obtenir son visa?",
+			"PROCESSUS_SIMPLE_CONVIVIAL": "Un processus de demande simple et convivial pour les voyageurs",
+			"PREENROLEMENT_PAIEMENT": {
+				"TITRE": "Pré-enrôlement et paiement",
+				"DESCRIPTION": "Le pré-enrôlement permet au requérant d’enregistrer ses informations personnelles, ses informations de voyage, ses contacts locaux et de télécharger les documents nécessaires pour l'enrôlement."
+			},
+			"RECEPTION_DST": {
+				"TITRE": "Réception de la réponse du DST",
+				"DESCRIPTION": "Le requérant reçoit à son adresse électronique dans un délai de 48h jours ouvrables un document (sur lequel figure un code-barre) qui est la réponse de l'autorité (approuvée ou refusée)."
+			},
+			"ENROLEMENT": {
+				"TITRE": "Enrôlement",
+				"DESCRIPTION": "Une fois le pré-enrôlement approuvé, le réquerant se rend à son lieu de délivrance pour se faire enrôlé."
+			}
+		},
+		"SERVICES": {
+			"TITRE": "Nos services",
+			"SURETE_ABIDJAN": {
+				"TITRE": "Sûreté Abidjan",
+				"DESCRIPTION": "Le détenteur d’un visa qui séjourne sur le territoire ivoirien peut prolonger son visa. Pour ce faire, il fait son pré-enrôlement, paye les frais en ligne et se rend à la sûreté d’Abidjan."
+			},
+			"AEROPORT_FHB": {
+				"TITRE": "Aéroport FHB (E-Visa)",
+				"DESCRIPTION": "Le requérant désireux d’obtenir un visa via l’aéroport FHB, doit au préalable faire son pré-enrôlement, payer les frais en ligne. Arrivée à l’aéroport FHB, le requérant se rend au poste de police pour son enrôlement et l’impression du visa."
+			},
+			"AMBASSADE": {
+				"TITRE": "Ambassade",
+				"DESCRIPTION": "Le requérant désireux d’obtenir un visa via une ambassade, doit au préalable faire son pré-enrôlement, payer les frais en ligne et prendre un rendez-vous."
+			}
+		},
+		"STATISTIQUES": {
+			"UTILISATEURS": "Utilisateurs",
+			"DEMANDES": "Demandes/jours",
+			"PAYS": "Pays demandeurs",
+			"VISA": "Visas délivrés"
+		},
+		"A_PROPOS": {
+			"QU_EST_CE_QUE": "Qu’est-ce que nous",
+			"VOUS_PROPOSONS": "vous proposons ?",
+			"DETAIL": "L’obtention d’un VISA Biométrique ivoirien passe par une phase de pré-enrôlement. Vous avez la possibilité de faire une demande de visa et d’obtenir une réponse sur son ordinateur (un code-barres), et ce, depuis son domicile, son lieu de travail ou tout autre endroit.",
+			"BTN_FAIRE_DEMANDE": "Faire une demande"
+		}
+	},
+	"INSCRIPTION": {
+		"BTN_SE_CONNECTER": "Se connecter ?",
+		"BTN_ENREGISTRER": "Enregistrer",
+		"RENSEIGNEZ": "Renseignez",
+		"LE_FORMULAIRE": "le formulaire",
+		"NOM": "Nom",
+		"ERREUR_CHAMP_OBLIGATOIRE": "Ce champ est obligatoire",
+		"PLACEHOLDER_NOM": "Votre nom",
+		"PRENOMS": "Prénoms",
+		"PLACE_HOLDER_PRENOMS": "Vos prénoms",
+		"ADRESSE_EMAIL": "Adresse email",
+		"PLACEHOLDER_ADRESSE_EMAIL": "Votre adresse email",
+		"ERREUR_ADRESSE_MAIL": "Veuillez saisir une adresse email correcte",
+		"GENRE": "Genre",
+		"PLACEHOLDER_GENRE": "Votre genre",
+		"AUCUN_GENRE_TROUVE": "Aucun genre trouvé",
+		"PAYS": "Pays",
+		"PLACEHOLDER_PAYS": "Votre pays de résidence",
+		"AUCUN_PAYS_TROUVE": "Aucun pays trouvé",
+		"TELEPHONE": "N° Téléphone",
+		"PLACEHOLDER_TELEPHONE": "Votre numéro de téléphone",
+		"MOT_DE_PASSE": "Mot de passe",
+		"PLACEHOLDER_MOT_DE_PASSE": "Votre mot de passe",
+		"ERREUR_MOT_DE_PASSE": "Doit avoir au moins 8 caractères, 1 chiffre, 1 caractère majuscule, 1 caractère minuscule et 1 caractère spécial",
+		"CONFIRMER_MOT_DE_PASSE": "Confirmer Mot de passe",
+		"PLACEHOLDER_CONFIRMER_MOT_DE_PASSE": "Votre mot de passe",
+		"ERREUR_CONFIRMER_MOT_DE_PASSE": "Veuillez ressaissir le mot de passe",
+		"INSCRIVEZ_VOUS": "Inscrivez vous sur",
+		"INSCRIPTION_DETAIL": "Inscrivez-vous afin de faire une demande de visa, de la suivre et de la renouveler"
+	},
+	"CONNEXION": {
+		"BIENVENUE": "Bienvenue sur Monvisa.ci",
+		"VISA_EN_COTE_D_IVOIRE": "Visa en Côte d’Ivoire",
+		"CREER_COMPTE": "Créer un compte ?",
+		"CONNECTEZ_VOUS": "Connectez-vous",
+		"RENSEIGNEZ_INFORMATIONS": "Renseignez vos informations afin d’accéder à votre espace de demande.",
+		"ADRESSE_EMAIL": "Adresse e-mail",
+		"ADRESSE_EMAIL_PLACEHOLDER": "Entrez votre adresse e-mail",
+		"MOT_DE_PASSE": "Mot de passe",
+		"PLACEHOLDER_MOT_DE_PASSE": "Entrez votre mot de passe",
+		"MOT_DE_PASSE_OUBLIE": "Mot de passe oublié ?",
+		"BTN_SE_CONNECTER": "Se connecter"
+	},
+	"LANGUE": {
+		"FRANCAIS": "Français",
+		"ANGLAIS": "Anglais",
+		"CHINOIS": "Chinois"
+	},
+	"COMPONENTS": {
+		"CALENDAR": {
+			"clear": "Effacer",
+			"prevText": "Précédent",
+			"nextText": "Suivant",
+			"today": "Aujourd'hui",
+			"monthNames": [
+				"Janvier",
+				"Février",
+				"Mars",
+				"Avril",
+				"Mai",
+				"Juin",
+				"Juillet",
+				"Août",
+				"Septembre",
+				"Octobre",
+				"Novembre",
+				"Décembre"
+			],
+			"monthNamesShort": [
+				"janv.",
+				"févr.",
+				"mars",
+				"avr.",
+				"mai",
+				"juin",
+				"juil.",
+				"août",
+				"sept.",
+				"oct.",
+				"nov.",
+				"déc."
+			],
+			"dayNames": [
+				"dimanche",
+				"lundi",
+				"mardi",
+				"mercredi",
+				"jeudi",
+				"vendredi",
+				"samedi"
+			],
+			"dayNamesShort": [
+				"dim.",
+				"lun.",
+				"mar.",
+				"mer.",
+				"jeu.",
+				"ven.",
+				"sam."
+			],
+			"dayNamesMin": [
+				"D",
+				"L",
+				"M",
+				"M",
+				"J",
+				"V",
+				"S"
+			],
+			"weekHeader": "Sem.",
+			"dateFormat": "dd/mm/yy",
+			"firstDayOfWeek": 1,
+			"yearSuffix": "",
+			"emptyMessage": "Aucun résultat trouvé",
+			"emptyFilterMessage": "Aucun résultat trouvé",
+			"startsWith": "Commence par",
+			"contains": "Contient",
+			"notContains": "Ne contient pas",
+			"endsWith": "Fini par",
+			"equals": "Égal à",
+			"notEquals": "Différent de",
+			"noFilter": "Pas de filtre",
+			"lt": "Inférieur à",
+			"lte": "Inférieur ou égal à",
+			"gt": "Supérieur à",
+			"gte": "Supérieur ou égal à",
+			"is": "Est",
+			"isNot": "N'est pas",
+			"before": "Avant",
+			"after": "Après",
+			"dateIs": "Est le",
+			"dateIsNot": "N'est pas le",
+			"dateBefore": "Est avant le",
+			"dateAfter": "Est après le"
+		}
+	}
+}

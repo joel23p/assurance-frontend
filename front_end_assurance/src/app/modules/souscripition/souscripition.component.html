@@ -1,0 +1,167 @@
+<div class="card bg-white shadow border-0 h400 m-4 p-5" style="height: 700px;">
+	<div class="header text-center mb-4">
+		<h3 class="fw-bold ">
+			Formulaire de Souscription - Action' Elles Assurance
+		</h3>
+	</div>
+	<div class="steps-content m-1 p-2">
+		<p-tabView [(activeIndex)]="tabIndex">
+			<!-- Étape 1 : Informations assuré -->
+			<p-tabPanel header="Informations assuré">
+				<form [formGroup]="formulaireSouscription">
+					<div class="row formgrid grid">
+						<div class="field col-md-6">
+							<label>Nom</label>
+							<input pInputText formControlName="nom" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('nom')?.invalid && formulaireSouscription.get('nom')?.touched">
+								Le nom est requis
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Prénom</label>
+							<input pInputText formControlName="prenom" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('prenom')?.invalid && formulaireSouscription.get('prenom')?.touched">
+								Le prénom est requis
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Téléphone</label>
+							<input pInputText formControlName="telephone" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('telephone')?.invalid && formulaireSouscription.get('telephone')?.touched">
+								Le numéro de téléphone est requis
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Email</label>
+							<input pInputText formControlName="email" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('email')?.invalid && formulaireSouscription.get('email')?.touched">
+								Un email valide est requis
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Numéro de carte d'identité</label>
+							<input pInputText formControlName="numeroIdentite" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('numeroIdentite')?.invalid && formulaireSouscription.get('numeroIdentite')?.touched">
+								Le numéro de carte d'identité est requis
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Adresse</label>
+							<input pInputText formControlName="adresse" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('adresse')?.invalid && formulaireSouscription.get('adresse')?.touched">
+								L'adresse est requise
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Ville</label>
+							<input pInputText formControlName="ville" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('ville')?.invalid && formulaireSouscription.get('ville')?.touched">
+								La ville est requise
+							</small>
+						</div>
+					</div>
+				</form>
+			</p-tabPanel>
+			<p-tabPanel header="Informations véhicule">
+				<form [formGroup]="formulaireSouscription">
+					<div class="row formgrid grid">
+						<div class="field col-md-6">
+							<label>Date de première mise en circulation</label>
+							<div class="flex">
+							<input
+								(input)="modifierdatePremiereCirculation($event)"
+								[inputMask]="dateInputMask"
+								class="form-control mr-1"
+								formControlName="datePremiereCirculation"
+								placeholder="dd/mm/yyyy"
+								required
+								style="flex: 1; width: calc(100% - 40px);">
+							<p-calendar
+								(onSelect)="updateDateFormControl($event)"
+								formControlName="datePremiereCirculation" [showIcon]="true" inputId="buttondisplay" [showOnFocus]="false" 	[appendTo]="'body'"
+										 [baseZIndex]="10000"
+										 dateFormat="dd/mm/yyyy"/>
+							</div>
+							<small class="p-error" *ngIf="formulaireSouscription.get('datePremiereCirculation')?.invalid && formulaireSouscription.get('datePremiereCirculation')?.touched">
+								La date de première mise en circulation est requise
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Numéro d'immatriculation</label>
+							<input pInputText formControlName="numeroImmatriculation" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('numeroImmatriculation')?.invalid && formulaireSouscription.get('numeroImmatriculation')?.touched">
+								Le numéro d'immatriculation est requis
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Couleur</label>
+							<input pInputText formControlName="couleur" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('couleur')?.invalid && formulaireSouscription.get('couleur')?.touched">
+								La couleur est requise
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Nombre de sièges</label>
+							<input type="number" pInputText formControlName="nombreSieges" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('nombreSieges')?.invalid && formulaireSouscription.get('nombreSieges')?.touched">
+								Le nombre de sièges est requis et doit être supérieur à 0
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Nombre de portes</label>
+							<input type="number" formControlName="nomnbrePortes" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSouscription.get('nomnbrePortes')?.invalid && formulaireSouscription.get('nomnbrePortes')?.touched">
+								Le nombre de portes est requis et doit être supérieur à 0
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Catégorie de véhicule</label>
+							<p-dropdown
+								[options]="categorieVehiculeOptions"
+								optionLabel="label"
+								optionValue="value"
+								formControlName="categorieId"
+								placeholder="Choisir..."
+								styleClass="w-100"
+								[style]="{'width': '100%'}">
+							</p-dropdown>
+							<small class="p-error" *ngIf="formulaireSouscription.get('categorieId')?.invalid && formulaireSouscription.get('categorieId')?.touched">
+								La catégorie de véhicule est requise
+							</small>
+						</div>
+					</div>
+				</form>
+			</p-tabPanel>
+
+		</p-tabView>
+	</div>
+	<div class="d-flex justify-content-between ">
+		<button *ngIf="tabIndex > 0"
+				(click)="tabIndex = tabIndex - 1"
+				class="btnBleuFonce btnBleuFonceLarge mt-8">
+			Précédent
+		</button>
+
+		<button *ngIf="tabIndex < 1 "
+				(click)="tabIndex = tabIndex + 1"
+				class="btnBleuFonce btnBleuFonceLarge ms-auto ">
+			Suivant
+		</button>
+		<button *ngIf="tabIndex === 1"
+				(click)="ouvrirRecaputilatifComponent()"
+				class="btnBleuFonce btnBleuFonceLarge ms-auto mt-8">
+			Souscrire
+		</button>
+		<app-recaputilatif
+		[data]="formulaireSouscription.value"
+		[visible]="ouvrirRecaputilatif"
+		(confirmerClick) = "soumettreFormulaire()"
+		(annulerClick)="fermerRecapitulatif()"
+		(souscriptionCreee)="onSouscriptionCreee($event)"
+		(souscriptionNonCreee)="onSouscriptionNonCreee($event)"
+		[optionsCategorie]="categorieVehiculeOptions"
+		>
+		</app-recaputilatif>
+	</div>
+</div>
+<p-toast/>

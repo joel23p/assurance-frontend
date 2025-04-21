@@ -1,0 +1,32 @@
+.btnBleuFonce {
+	background-color: #062d5a !important;
+	color: white !important;
+	border: 1px solid #062d5a !important;
+	transition: all 0.3s ease;
+}
+
+.btnBleuFonce:hover {
+	background-color: #0a3b6e !important;
+	border-color: #0a3b6e !important;
+}
+
+.btnBleuFonce:active {
+	background-color: #051f3d !important;
+	border-color: #051f3d !important;
+}
+
+.btnBleuFonce:disabled {
+	background-color: #cccccc !important;
+	border-color: #cccccc !important;
+	color: #666666 !important;
+}
+
+.btnBleuFonceLarge {
+	padding: 12px 30px;
+	font-size: 1.1rem;
+	border-radius: 8px;
+}
+
+.header{
+	color: #062d5a;
+}

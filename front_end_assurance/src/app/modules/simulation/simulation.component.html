@@ -1,0 +1,59 @@
+<p-toast/>
+<div class="card bg-white shadow border-0 h400 m-4 p-5" style="height: 700px;">
+	<div class="header text-center mb-4">
+		<h3 class="fw-bold">
+			Formulaire de Simulation -Action' Elles Assurance
+		</h3>
+	</div>
+	<div class="steps-content m-1 p-2">
+		<p-tabView>
+			<!-- Étape 1 : Informations Simulation -->
+			<p-tabPanel header="Informations Simulation">
+				<form [formGroup]="formulaireSimulation">
+					<div class="row formgrid grid">
+						<div class="field col-md-6">
+							<label>Produit Assurance</label>
+							<p-dropdown
+								[options]="optionsProduitAssurance"
+								formControlName="produitAssuranceId"
+								placeholder="Choisir..."
+								optionLabel="label"
+								optionValue="value"
+								styleClass="w-100"
+								[style]="{'width': '100%'}">
+							</p-dropdown>
+						</div>
+						<div class="field col-md-6">
+							<label>Prix Initial du Véhicule</label>
+							<input type="number"  pInputText formControlName="prixInitialVehicule" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSimulation.get('prixInitialVehicule')?.invalid && formulaireSimulation.get('prixInitialVehicule')?.touched">
+								Le  prix initial du vehicule  est requis
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Valeur Actuelle du Véhicule</label>
+							<input  type="number" formControlName="valeurActuelleVehicule" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSimulation.get('valeurActuelleVehicule')?.invalid && formulaireSimulation.get('valeurActuelleVehicule')?.touched">
+								La valeur actuelle du vehicule  est requise
+							</small>
+						</div>
+						<div class="field col-md-6">
+							<label>Puissance Fiscale</label>
+							<input  type="number" formControlName="puissanceFiscale" class="form-control" />
+							<small class="p-error" *ngIf="formulaireSimulation.get('puissanceFiscale')?.invalid && formulaireSimulation.get('puissanceFiscale')?.touched">
+								La puissance est requise  est requise
+							</small>
+						</div>
+					</div>
+				</form>
+			</p-tabPanel>
+		</p-tabView>
+	</div>
+	<div class="d-flex justify-content-end mt-4">
+		<button
+			(click)="Simuler()"
+			class="btnBleuFonce btnBleuFonceLarge">
+			Simuler
+		</button>
+	</div>
+</div>

@@ -1,0 +1,212 @@
+{
+	"ACCUEIL": {
+		"FAIRE_DEMANDE_VISA": "Apply for a visa",
+		"CHOIX_LIEU_DELIVRANCE": "Choose the place of issue",
+		"PRISE_RDV": "appointment scheduling",
+		"PAIEMENT_EN_LIGNE": "Make the payment online",
+		"SUIVRE_ETAT_DEMANDE": "Track the status of the request",
+		"MENU": {
+			"ACCUEIL": "Home",
+			"PROCESSUS": "Workflow",
+			"SERVICES": "Services",
+			"A_PROPOS": "About",
+			"NOUS_CONTACTER": "Contact us",
+			"BTN_SE_CONNECTER": "Sign in",
+			"BTN_CREER_UN_COMPTE": "Create an account",
+			"BTN_MON_ESPACE": "My space",
+			"BTN_SE_DECONNECTER": "Log out"
+		},
+		"PIED_PAGE": {
+			"LOCALISATION": "Localisation",
+			"NOUS_CONTACTER": "Contact us",
+			"NOUS_SUIVRE": "Follow us"
+		},
+		"BANNIERE": {
+			"DEMANDEZ_PAYEZ_RENOUVELEZ": "Ask, pay and renew your",
+			"VOTRE_VISA_COTE_D_IVOIRE": "VISA in Côte d'Ivoire",
+			"QUELQUES_CLICS": "in just a few clicks.",
+			"NOUS_SIMPLIFIONS_VOTRE_VOYAGE": "We simplify your trip to Ivory Coast",
+			"BTN_FAIRE_DEMANDE": "Apply"
+		},
+		"PROCESSUS": {
+			"TITRE": "Workflow",
+			"COMMENT_OBTENIR_SON_VISA": "How to get a visa?",
+			"PROCESSUS_SIMPLE_CONVIVIAL": "A simple and user-friendly application process for travellers",
+			"PREENROLEMENT_PAIEMENT": {
+				"TITRE": "Pre-enrolment and payment",
+				"DESCRIPTION": "Pre-enrolment allows the applicant to record personal information, travel information, local contacts, and to download the necessary documents for enrolment."
+			},
+			"RECEPTION_DST": {
+				"TITRE": "Receive response from DST",
+				"DESCRIPTION": "The applicant receives a document (with a bar code) from the authority (approved or refused) to his email address within 48 business days."
+			},
+			"ENROLEMENT": {
+				"TITRE": "Enrolment",
+				"DESCRIPTION": "Once the pre-enrolment is approved, the applicant goes to his place of deliverance to enlist."
+			}
+		},
+		"SERVICES": {
+			"TITRE": "Our services",
+			"SURETE_ABIDJAN": {
+				"TITRE": "Abidjan Security",
+				"DESCRIPTION": "A visa holder who stays on Ivorian territory may extend his visa. To do this, he does his pre-enrolment, pays the costs online and goes to the security of Abidjan."
+			},
+			"AEROPORT_FHB": {
+				"TITRE": "FHB Airport (E-Visa)",
+				"DESCRIPTION": "The applicant wishing to obtain a visa via FHB airport, must first do his pre-enrolment, pay the fees online. Arriving at the FHB airport, the applicant goes to the police station for his enrolment and the printing of the visa."
+			},
+			"AMBASSADE": {
+				"TITRE": "Embassy",
+				"DESCRIPTION": "Applicants wishing to obtain a visa through an embassy must first pre-enrol, pay the online fee and make an appointment."
+			}
+		},
+		"STATISTIQUES": {
+			"UTILISATEURS": "Users",
+			"DEMANDES": "Requests/days",
+			"PAYS": "Applicant countries",
+			"VISA": "Visas issued"
+		},
+		"A_PROPOS": {
+			"QU_EST_CE_QUE": "What do we",
+			"VOUS_PROPOSONS": "offer you ?",
+			"DETAIL": "Obtaining an Ivorian Biometric VISA involves a pre-enrolment phase. You can apply for a visa and get an answer on his computer (a bar code) from his home, his workplace or any other place.",
+			"BTN_FAIRE_DEMANDE": "Apply"
+		}
+	},
+	"INSCRIPTION": {
+		"BTN_SE_CONNECTER": "Sign in ?",
+		"BTN_ENREGISTRER": "Register",
+		"RENSEIGNEZ": "Fill in",
+		"LE_FORMULAIRE": "the form",
+		"NOM": "Lastname",
+		"ERREUR_CHAMP_OBLIGATOIRE": "This field is required",
+		"PLACEHOLDER_NOM": "Your lastname",
+		"PRENOMS": "First names",
+		"PLACE_HOLDER_PRENOMS": "Your first names",
+		"ADRESSE_EMAIL": "email address",
+		"PLACEHOLDER_ADRESSE_EMAIL": "Your email address",
+		"ERREUR_ADRESSE_MAIL": "Please enter a correct email address",
+		"GENRE": "Gender",
+		"PLACEHOLDER_GENRE": "Your gender",
+		"AUCUN_GENRE_TROUVE": "No gender found",
+		"PAYS": "Country",
+		"PLACEHOLDER_PAYS": "Your home country",
+		"AUCUN_PAYS_TROUVE": "No country found",
+		"TELEPHONE": "Phone #",
+		"PLACEHOLDER_TELEPHONE": "Your phone number",
+		"MOT_DE_PASSE": "Password",
+		"PLACEHOLDER_MOT_DE_PASSE": "Your password",
+		"ERREUR_MOT_DE_PASSE": "Must be at least 8 characters, 1 digit, 1 uppercase, 1 lowercase and 1 special character",
+		"CONFIRMER_MOT_DE_PASSE": "Confirm password",
+		"PLACEHOLDER_CONFIRMER_MOT_DE_PASSE": "Your password",
+		"ERREUR_CONFIRMER_MOT_DE_PASSE": "Please re-enter the password",
+		"INSCRIVEZ_VOUS": "Register on",
+		"INSCRIPTION_DETAIL": "Register to apply for, track and renew your visa"
+	},
+	"CONNEXION": {
+		"BIENVENUE": "Welcome to Monvisa.ci",
+		"VISA_EN_COTE_D_IVOIRE": "Visa in Côte d’Ivoire",
+		"CREER_COMPTE": "Create an account ?",
+		"CONNECTEZ_VOUS": "Sign in",
+		"RENSEIGNEZ_INFORMATIONS": "Fill in your information to access your application space.",
+		"ADRESSE_EMAIL": "Email address",
+		"ADRESSE_EMAIL_PLACEHOLDER": "Enter your email address",
+		"MOT_DE_PASSE": "Password",
+		"PLACEHOLDER_MOT_DE_PASSE": "Enter your password",
+		"MOT_DE_PASSE_OUBLIE": "Forgot your password ?",
+		"BTN_SE_CONNECTER": "Sign in"
+	},
+	"LANGUE": {
+		"FRANCAIS": "French",
+		"ANGLAIS": "English",
+		"CHINOIS": "Chinese"
+	},
+	"COMPONENTS": {
+		"CALENDAR": {
+			"clear": "Effacer",
+			"prevText": "Précédent",
+			"nextText": "Suivant",
+			"today": "Aujourd'hui",
+			"monthNames": [
+				"Janvier",
+				"Février",
+				"Mars",
+				"Avril",
+				"Mai",
+				"Juin",
+				"Juillet",
+				"Août",
+				"Septembre",
+				"Octobre",
+				"Novembre",
+				"Décembre"
+			],
+			"monthNamesShort": [
+				"janv.",
+				"févr.",
+				"mars",
+				"avr.",
+				"mai",
+				"juin",
+				"juil.",
+				"août",
+				"sept.",
+				"oct.",
+				"nov.",
+				"déc."
+			],
+			"dayNames": [
+				"dimanche",
+				"lundi",
+				"mardi",
+				"mercredi",
+				"jeudi",
+				"vendredi",
+				"samedi"
+			],
+			"dayNamesShort": [
+				"dim.",
+				"lun.",
+				"mar.",
+				"mer.",
+				"jeu.",
+				"ven.",
+				"sam."
+			],
+			"dayNamesMin": [
+				"D",
+				"L",
+				"M",
+				"M",
+				"J",
+				"V",
+				"S"
+			],
+			"weekHeader": "Sem.",
+			"dateFormat": "dd/mm/yy",
+			"firstDayOfWeek": 1,
+			"yearSuffix": "",
+			"emptyMessage": "Aucun résultat trouvé",
+			"emptyFilterMessage": "Aucun résultat trouvé",
+			"startsWith": "Commence par",
+			"contains": "Contient",
+			"notContains": "Ne contient pas",
+			"endsWith": "Fini par",
+			"equals": "Égal à",
+			"notEquals": "Différent de",
+			"noFilter": "Pas de filtre",
+			"lt": "Inférieur à",
+			"lte": "Inférieur ou égal à",
+			"gt": "Supérieur à",
+			"gte": "Supérieur ou égal à",
+			"is": "Est",
+			"isNot": "N'est pas",
+			"before": "Avant",
+			"after": "Après",
+			"dateIs": "Est le",
+			"dateIsNot": "N'est pas le",
+			"dateBefore": "Est avant le",
+			"dateAfter": "Est après le"
+		}
+	}
+}

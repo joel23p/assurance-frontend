@@ -1,0 +1,141 @@
+<p-dialog
+	[visible]="visible"
+	[modal]="true"
+	[style]="{width: '80%'}"
+	[draggable]="false"
+	[resizable]="false"
+	(onHide)="annuler()">
+
+	<ng-template pTemplate="header">
+		<div class="header text-center">
+			<h3 class="fw-bold">Récapitulatif et validation de la Souscription</h3>
+		</div>
+	</ng-template>
+
+	<div class="bg-white p-3 scroll" style="height: 700px;">
+		<!-- Section Assuré -->
+		<p-divider align="left" class="mt-4">
+			<div class="inline-flex align-items-center">
+				<b class="primaryOrangeColor">Informations de l'Assuré</b>
+			</div>
+		</p-divider>
+
+		<div class="row formgrid grid justify-content-center">
+			<div class="info-group col-md-4 mt-2 d-flex row">
+				<small class="col-5">Nom</small>:
+				<label class="text-dark fs-6 font-weight-bold col-6">
+					{{data.nom}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Prénom</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.prenom}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Téléphone</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.telephone}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Email</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.email}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">N° Carte Identité</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.numeroIdentite}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Adresse</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.adresse}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Ville</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.ville}}
+				</label>
+			</div>
+		</div>
+
+		<!-- Section Véhicule -->
+		<p-divider align="left">
+			<div class="inline-flex align-items-center">
+				<b class="primaryOrangeColor">Informations du Véhicule</b>
+			</div>
+		</p-divider>
+
+		<div class="row formgrid grid justify-content-center">
+			<div class="info-group col-md-4 mt-2 d-flex row">
+				<small class="col-5">Date mise en circulation</small>:
+				<label class="text-dark fs-6 font-weight-bold col-6">
+					{{data.datePremiereCirculation | date:'dd/MM/yyyy'}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Immatriculation</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.numeroImmatriculation}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Couleur</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.couleur}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Nombre de sièges</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.nombreSieges}}
+				</label>
+			</div>
+
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Nombre de portes</small>:
+				<label class="text-dark font-weight-bold col-6">
+					{{data.nomnbrePortes}}
+				</label>
+			</div>
+			<div class="info-group col-md-4 d-flex row">
+				<small class="col-5">Catégorie</small>:
+				<label class="text-dark font-weight-bold ">
+					<label class="text-dark font-weight-bold ">
+						{{
+					     label
+						}}
+					</label>
+				</label>
+			</div>
+
+
+		</div>
+	</div>
+
+	<ng-template pTemplate="footer">
+		<div class="d-flex justify-content-between">
+			<button (click)="annuler()" class="btnBleuFonce btnBleuFonceLarge">
+				Modifier
+			</button>
+			<button (click)="creerSouscription()" class="btnBleuFonce btnBleuFonceLarge">
+				Confirmer
+			</button>
+		</div>
+	</ng-template>
+</p-dialog>
