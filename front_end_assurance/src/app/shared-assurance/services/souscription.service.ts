@@ -19,6 +19,4 @@ export class SouscriptionService {
 		return this.http.post<Souscription>(this.apiUrl+URLS.souscription, souscription);
 	}
 
-
-
 }
